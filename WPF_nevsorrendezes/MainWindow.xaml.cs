@@ -30,7 +30,12 @@ namespace WPF_nevsorrendezes
         {
 
             Nevek.Add(tbx_nevek.Text);
-
+            foreach (var item in Nevek)
+            {
+                lb_nevlista.Items.Add(item);
+            }
+            
+            
 
         }
 
