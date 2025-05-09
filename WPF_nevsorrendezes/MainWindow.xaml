@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPF_nevsorrendezes"
         mc:Ignorable="d"
         Title="Nevrendez" Height="450" Width="400">
-    <Grid>
+    <Grid Background="{DynamicResource {x:Static SystemColors.AppWorkspaceBrushKey}}">
         <Label
             Content="Rendezés névsor szerint"
             Height="auto"
@@ -55,7 +55,7 @@
             VerticalAlignment="Top"
             HorizontalAlignment="Left"
             Margin="30 140 0 0"
-            SelectionMode="Single"
+            
             />
 
         <Label
@@ -75,7 +75,7 @@
             VerticalAlignment="Top"
             HorizontalAlignment="Right"
             Margin="0 140 30 0"
-            SelectionMode="Single"
+            
             />
         <Button
             x:Name="bt_nevlistazasa"
