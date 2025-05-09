@@ -84,7 +84,7 @@
             Height="30"
             VerticalAlignment="Top"
             HorizontalAlignment="Left"
-            Margin="30 390 0 0" 
+            Margin="30 390 0 0" Click="bt_nevlistazasa_Click_1" 
          
             />
         <Button
@@ -94,7 +94,7 @@
             Height="30"
             VerticalAlignment="Top"
             HorizontalAlignment="Left"
-            Margin="220 390 0 0" 
+            Margin="220 390 0 0" Click="bt_nevsorrendezés_Click" 
             />
 
     </Grid>

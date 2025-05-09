@@ -26,7 +26,11 @@ namespace WPF_nevsorrendezes
             InitializeComponent();
         }
 
-        private void bt_nevlistazasa_Click(object sender, RoutedEventArgs e)
+        
+
+        
+
+        private void bt_nevlistazasa_Click_1(object sender, RoutedEventArgs e)
         {
             if (tbx_nevek.Text != "")
             {
@@ -45,10 +49,6 @@ namespace WPF_nevsorrendezes
             {
                 MessageBox.Show("Kérem adjon meg egy nevet", "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-            
-            
-            
-
         }
 
         private void bt_nevsorrendezés_Click(object sender, RoutedEventArgs e)
